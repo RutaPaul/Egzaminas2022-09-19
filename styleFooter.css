@@ -1,0 +1,38 @@
+@media screen and (min-width: 780px)
+{
+  .footerFlexBox {
+    display: flex;
+    
+    justify-content: space-between;
+  }
+
+  .footerOne
+  {
+    width: 50%;
+  }
+
+  .footerGrid
+  {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px)
+{
+
+  .footerOne{
+    width: 100%;
+  }
+
+  .footerFlexBox {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .footerTwo
+  {
+    display: none;
+  }
+
+}

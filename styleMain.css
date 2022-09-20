@@ -16,6 +16,10 @@ body
 {
   width: 50vw;
 }
+.mainTextDecorationImgSecond
+{
+  width: 22vw;
+}
 .mainText
 {
   min-width: 55vh;
@@ -101,6 +105,11 @@ line-height: 150%;
   .mainTextDecorationImg
   {
     width: 40vw;
+  }
+  
+  .mainTextDecorationImgSecond
+  {
+    width: 12vw;
   }
 
   .companyLOGO
