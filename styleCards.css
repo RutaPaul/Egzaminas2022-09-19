@@ -1,0 +1,79 @@
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; 
+  width: 150px;
+  margin-right:10%;
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+  width: 150px;
+}
+
+.card:hover {
+  box-shadow: 0 68px 148px 60px rgba(245, 99, 26, 0.838);
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #EEEEEE;
+  
+  border-radius: 0 0 5px 5px;
+}
+
+.containerNTFS {
+  display: flex;
+  align-items: flex-start;
+}
+
+.cardContainer img {
+  width: 8px;
+  margin-left:10%;
+}
+
+.cardContainer p:nth-child(1)
+{
+  font-size: 8px;
+  color:rgb(202, 87, 16);
+  min-width: 60px;
+  margin-left:4%;
+  min-height: 10px;
+}
+
+.cardContainer p:nth-child(2)
+{
+  font-size: 8px;
+  margin-left:26%;
+  min-height: 10px;
+}
+
+.cardContainer p:nth-child(3)
+{
+  font-size: 12px;
+  min-width: 60px;
+  margin-left:4%;
+  min-height: 10px;
+}
+.cardContainer p:nth-child(5)
+{
+  font-size: 12px;
+  min-height: 10px;
+}
+
+.cardContainer p:nth-child(6)
+{
+  font-size: 9px;
+  min-width: 70px;
+  margin-left:4%;
+  min-height: 10px;
+}
+
+.cardContainer p:nth-child(7)
+{
+  font-size: 9px;
+  margin-left:16%;
+  min-height: 10px;
+}

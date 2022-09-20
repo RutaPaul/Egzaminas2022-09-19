@@ -1,3 +1,10 @@
+body
+{
+  margin-top:5%;
+  margin-right:5%;
+  margin-left:5%;
+}
+
 .flex-container
 {
   display: flex;
@@ -5,18 +12,21 @@
   flex-direction: row;
   margin-top: 10%;
 }
-
+.mainTextDecorationImg
+{
+  width: 50vw;
+}
 .mainText
 {
-  min-width: 55%;
+  min-width: 55vh;
 }
 
 .signUpButton
 {
-  width: 50%;
+  width: 24vh;
   border-radius: 100rem;
   padding: 1rem;
-  font-family: 'Avenir Next';
+  font-family: 'Avenir NexInt';
   font-size: 1rem;
   padding: .5rem 3rem;
   box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
@@ -27,3 +37,108 @@
   box-shadow: 2px 1000px 1px #fff inset;
   cursor: pointer;
 }
+.background-text
+{
+  background-image: url('assets/background.svg');
+  background-position: center;
+  padding: 2% 2% 2% 2% ;
+}
+.freeNFTtext p
+{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+
+}
+.signUpTodayText p
+{
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+}
+
+
+@media screen and (max-width: 780px)
+{
+  .companyLOGO
+  {
+    margin-top:10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .logoBoomerang
+  {
+    width: 50%;
+    overflow: hidden;
+  }
+
+  .logoQrco
+  {
+    width: 50%;
+    overflow: hidden;
+  }
+  .logoOpendoor
+  {
+    display: none;
+  }
+  .logoDroplet
+  {
+    width: 50%;
+    overflow: hidden;
+  }
+  .logoBlimp
+  {
+    width:50%;
+    overflow: hidden;
+  }
+}
+
+
+@media screen and (min-width: 780px)
+{
+  .mainTextDecorationImg
+  {
+    width: 40vw;
+  }
+
+  .companyLOGO
+  {
+    width: 100%;
+    margin-top:10%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .companyLOGO div
+  {
+    margin-right:5%;
+  }
+
+  .logoBoomerang img
+  {
+    max-width:14vw;
+  }
+
+  .logoQrco img
+  {
+    max-width:8vw;
+  }
+
+  .logoOpendoor img
+  {
+    max-width:13vw;
+  }
+
+  .logoDroplet img
+  {
+    max-width:11vw;
+  }
+
+  .logoBlimp img
+  {
+    max-width:9vw;
+  }
+}
+
