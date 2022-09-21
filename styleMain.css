@@ -40,6 +40,7 @@ body
   background-clip: content-box, border-box;
   box-shadow: 2px 1000px 1px #fff inset;
   cursor: pointer;
+  margin-top:20px;
 }
 .background-text
 {
