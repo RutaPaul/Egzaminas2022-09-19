@@ -1,37 +1,40 @@
 @media screen and (max-width: 780px)
 {
-
   .fontLogo
   {
     display: flex;
-   
   }
+
   .fontLogo img
   {
-   max-width: 20px;
-   margin-left:4px;
-   margin-right:10px;
+    max-width: 20px;
+    margin-left:4px;
+    margin-right:10px;
   }
-  .left-container
+
+  .leftContainer
   {
     width: 100%;
   }
+
   .row
   {
     display: flex;
     flex-wrap: wrap;
-  
   }
+
   ul
   {
     list-style: none;
   }
-  .footer-col
+
+  .footerCol
   {
     width: 30vw;
     padding: 0 15px;
   }
-  .footer-col h4
+
+  .footerCol h4
   {
     font-size: 10px;
     color: #555555;
@@ -39,11 +42,13 @@
     margin-bottom: 20px;
     padding-left: 40px;
   }
-  .footer-col ul li
+
+  .footerCol ul li
   {
     margin-bottom: 10px;
   }
-  .footer-col ul li a
+
+  .footerCol ul li a
   {
     font-size: 11px;
     color: #555555;
@@ -54,12 +59,12 @@
 
 @media screen and (min-width: 780px)
 {
-
   .fontLogo
   {
     display: flex;
    
   }
+
   .fontLogo img
   {
    max-width: 20px;
@@ -67,7 +72,7 @@
    margin-right:10px;
   }
   
-  .left-container
+  .leftContainer
   {
     width: 100%;
   }
@@ -77,21 +82,25 @@
     display: flex;
     justify-content: flex-start;
   }
+
   .row
   {
     display: flex;
     justify-content: flex-end;
   
   }
+
   ul
   {
     list-style: none;
   }
-  .footer-col
+
+  .footerCol
   {
     width: 100%;
   }
-  .footer-col h4
+
+  .footerCol h4
   {
     font-size: 10px;
     color: #555555;
@@ -99,11 +108,13 @@
     margin-bottom: 30px;
     padding-left: 40px;
   }
-  .footer-col ul li
+
+  .footerCol ul li
   {
     margin-bottom: 10px;
   }
-  .footer-col ul li a
+  
+  .footerCol ul li a
   {
     font-size: 11px;
     color: #555555;

@@ -1,0 +1,43 @@
+.blockHeader 
+{
+    color: #FF3998;
+    font-weight: bold;
+}
+
+.blockText
+{
+    color:#555555;
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.brakerBottom
+{
+    color:#EEEEEE;
+    margin:0
+}
+
+.brakerTop
+{
+    color:#EEEEEE;
+    margin-top:80px;
+}
+
+.auctionHeader
+{
+    font-size: 40px; 
+    line-height: 48px; 
+    margin-bottom:20px;
+}
+
+.auctionText
+{
+    color:#555555;
+    font-size: 20px; 
+    line-height: 150%; 
+}
+
+.auctionTextUrl
+{
+    text-decoration: underline;
+}

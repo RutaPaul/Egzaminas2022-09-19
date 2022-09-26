@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Egzaminas</title>
-    <link rel="stylesheet" href="styleHeader.css">
-    <link rel="stylesheet" href="styleMain.css">
-    <link rel="stylesheet" href="styleCards.css">
-    <link rel="stylesheet" href="styleFooter.css">
+    <link rel="stylesheet" href="styles/styleHeader.css">
+    <link rel="stylesheet" href="styles/styleMain.css">
+    <link rel="stylesheet" href="styles/styleCards.css">
+    <link rel="stylesheet" href="styles/styleFooter.css">
+    <link rel="stylesheet" href="styles/styleCommon.css">
 </head>
-
 <body>
     <header>
         <nav class="navbar">
@@ -18,26 +18,26 @@
                 <img class="imgLogo" src="./assets/logo.svg"/>
             </div>
             <div class="dropdown"> 
-                <img class="navIconImg" src="./assets/bars-solid.svg" style="width: 16px;"/>
-              <div class="dropdown-content">
-                <a href="#">Features</a>
-                <a href="#">About</a>
-                <a href="#">Launch</a>
-                <a href="#" class="active">Sign Up</a>
-              </div>
+                <img class="navIconImg" src="./assets/bars-solid.svg"/>
+                <div class="dropdownContent">
+                    <a href="#">Features</a>
+                    <a href="#">About</a>
+                    <a href="#">Launch</a>
+                    <a href="#" class="active">Sign Up</a>
+                </div>
             </div>
         </nav> 
     </header>
     <main>   
-        <div class="flex-container">
+        <div class="flexContainer">
             <div class="mainText">
-                <div style="color: #FF3998; font-weight: bold;">
-                    <p>LAUNCHING SOON</p>
+                <div class="blockHeader">
+                    LAUNCHING SOON
                 </div>
                 <div>
-                    <h1> An NFT like no other</h1>
+                    <h1>An NFT like no other</h1>
                 </div>
-                <div style="font-size:20px; margin-bottom:20px; color: #555555;">
+                <div class="blockText">
                     Don't miss out on the release of our new NFT. Sign up below to receive updates when we go live.
                 </div>
                 <button class="signUpButton">
@@ -48,16 +48,12 @@
                 <img class="mainTextDecorationImg" src="./assets/graphic.svg">
             </div>
         </div>
-        <div class="background-text">
+        <div class="backgroundText">
            <div class="freeNFTtext">
-            <p>
                 Free NFT for early birds
-            </p>
            </div>
            <div class="signUpTodayText">
-            <p>
                 Sign up today and you'll get a free NFT when we launch.
-            </p>
            </div>
         </div>
         <div class="companyLOGO">
@@ -76,79 +72,76 @@
             <div class="logoDroplet">
                 <img src="./assets/companies/5.svg" alt="droplet">
             </div>
-
         </div>
         <div>
-            <p style="font-size: 40px; line-height: 48px; margin-bottom:20px;">
+            <p class="auctionHeader">
                 LE Super Rare Auction
             </p>
-            <p style="font-size: 20px; line-height: 150%; color:#555555">
-                We have released four limited edition NFTs early which can be bid on via <span style="text-decoration: underline;">OpenSea</span>.
+            <p class="auctionText">
+                We have released four limited edition NFTs early which can be bid on via 
+                <span class="auctionTextUrl">OpenSea</span>.
             </p>
         </div>
         <div class="containerNTFS">
             <div class="card">
                 <img src="./assets/ntfs/ntf-1.svg" alt="Purple">
                 <div class="cardContainer">
-                    <p>GLOOP SERIES</p>
-                    <p>TOP BID</p>
-                    <p>Purple Man</p>
+                    <div class="cardSeries">GLOOP SERIES</div>
+                    <div class="cardHeader">TOP BID</div>
+                    <div class="cardName">Purple Man</div>
                     <img src="./assets/eth.svg">
-                    <p>2.99 ETH</p>
-                    <p>#12983</p>
-                    <p>1 day left</p>
+                    <div class="cardPrice">2.99 ETH</div>
+                    <div class="cardNumber">#12983</div>
+                    <div class="cardTime">1 day left</div>
                 </div>
             </div>
-
             <div class="card">
                 <img src="./assets/ntfs/nft-2.svg" alt="Purple">
                 <div class="cardContainer">
-                    <p>GLOOP SERIES</p>
-                    <p>TOP BID</p>
-                    <p>Beige</p>
+                    <div class="cardSeries">GLOOP SERIES</div>
+                    <div class="cardHeader">TOP BID</div>
+                    <div class="cardName">Beige</div>
                     <img src="./assets/eth.svg">
-                    <p>2.99 ETH</p>
-                    <p>#12983</p>
-                    <p>1 day left</p>
+                    <div class="cardPrice">2.99 ETH</div>
+                    <div class="cardNumber">#12983</div>
+                    <div class="cardTime">1 day left</div>
                 </div>
             </div>
-
             <div class="card">
                 <img src="./assets/ntfs/ntf-3.svg" alt="Purple">
                 <div class="cardContainer">
-                    <p>GLOOP SERIES</p>
-                    <p>TOP BID</p>
-                    <p>Red Man</p>
+                    <div class="cardSeries">GLOOP SERIES</div>
+                    <div class="cardHeader">TOP BID</div>
+                    <div class="cardName">Red Man</div>
                     <img src="./assets/eth.svg">
-                    <p>2.99 ETH</p>
-                    <p>#12983</p>
-                    <p>1 day left</p>
+                    <div class="cardPrice">2.99 ETH</div>
+                    <div class="cardNumber">#12983</div>
+                    <div class="cardTime">1 day left</div>
                 </div>
             </div>
-
             <div class="card">
                 <img src="./assets/ntfs/ntf-4.svg" alt="Purple">
                 <div class="cardContainer">
-                    <p>GLOOP SERIES</p>
-                    <p>TOP BID</p>
-                    <p>Green</p>
+                    <div class="cardSeries">GLOOP SERIES</div>
+                    <div class="cardHeader">TOP BID</div>
+                    <div class="cardName">Green</div>
                     <img src="./assets/eth.svg">
-                    <p>2.99 ETH</p>
-                    <p>#12983</p>
-                    <p>1 day left</p>
+                    <div class="cardPrice">2.99 ETH</div>
+                    <div class="cardNumber">#12983</div>
+                    <div class="cardTime">1 day left</div>
                 </div>
             </div>
         </div>
-        <hr style="margin-top:80px; color:#EEEEEE">
-        <div class="flex-container">
+        <hr class="brakerTop">
+        <div class="flexContainer">
             <div class="mainText">
-                <div style="color: #FF3998; font-weight: bold;">
-                    <p>LAUNCHING SOON</p>
+                <div class="blockHeader">
+                    LAUNCHING SOON
                 </div>
                 <div>
-                    <h1> An NFT like no other</h1>
+                    <h1>An NFT like no other</h1>
                 </div>
-                <div style="color:#555555">
+                <div class="blockText">
                     Don't miss out on the release of our new NFT. Sign up below to receive updates when we go live.
                 </div>
                 <button class="signUpButton">
@@ -159,18 +152,16 @@
                 <img class="mainTextDecorationImgSecond" src="./assets/upsell-footer-image.svg">
             </div>
         </div>
-        <hr style="color:#EEEEEE; margin:0">
+        <hr class="brakerBottom">
     </main>
     <footer>
         <div class="footerBox">
-            <div class="left-container">
-                <div class="footer-logo">
+            <div class="leftContainer">
+                <div class="footerLogo">
                     <img src="./assets/logo.svg" alt="nftsLogo">
                 </div>
                 <div>
-                    <p>
-                        Exclusive NFT Collection
-                    </p>
+                    Exclusive NFT Collection
                 </div>
                 <div class="fontLogo">
                     <img src="./assets/facebook.svg" alt="Facebook">
@@ -180,7 +171,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="footer-col">
+                <div class="footerCol">
                     <h4>ABOUT</h4>
                     <ul>
                         <li><a href="#">About</a></li>
@@ -188,7 +179,7 @@
                         <li><a href="#">Legal</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="footerCol">
                     <h4>NFT</h4>
                     <ul>
                         <li><a href="#">OpenSea</a></li>
@@ -196,14 +187,14 @@
                         <li><a href="#">Learn</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="footerCol">
                     <h4>CONTACT</h4>
                     <ul>
                         <li><a href="#">Press</a></li>
                         <li><a href="#">Support</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
+                <div class="footerCol">
                     <h4>SOCIAL</h4>
                     <ul>
                         <li><a href="#">Twitter</a></li>
@@ -221,6 +212,5 @@
             </p>
         </div>
     </footer>
-    
 </body>
 </html>

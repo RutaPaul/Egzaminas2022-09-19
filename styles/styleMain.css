@@ -5,21 +5,24 @@ body
   margin-left:5%;
 }
 
-.flex-container
+.flexContainer
 {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
   margin-top: 10%;
 }
+
 .mainTextDecorationImg
 {
   width: 50vw;
 }
+
 .mainTextDecorationImgSecond
 {
   width: 22vw;
 }
+
 .mainText
 {
   min-width: 55vh;
@@ -42,26 +45,28 @@ body
   cursor: pointer;
   margin-top:20px;
 }
-.background-text
+
+.backgroundText
 {
-  background-image: url('assets/background.svg');
+  background-image: url('../assets/background.svg');
   background-position: center;
   padding: 2% 2% 2% 2% ;
 }
-.freeNFTtext p
+
+.freeNFTtext
 {
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
 
 }
-.signUpTodayText p
-{
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-}
 
+.signUpTodayText
+{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
 
 @media screen and (max-width: 780px)
 {
@@ -73,6 +78,7 @@ line-height: 150%;
     flex-wrap: wrap;
     align-items: center;
   }
+
   .logoBoomerang
   {
     width: 50%;
@@ -84,15 +90,18 @@ line-height: 150%;
     width: 50%;
     overflow: hidden;
   }
+
   .logoOpendoor
   {
     display: none;
   }
+
   .logoDroplet
   {
     width: 50%;
     overflow: hidden;
   }
+  
   .logoBlimp
   {
     width:50%;
